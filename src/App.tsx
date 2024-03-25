@@ -1,5 +1,6 @@
 import { Navbar } from "./components/Navbar.tsx"
 import { Welcome } from "./pages/Welcome.tsx"
+import { Stacks } from "./pages/Stacks.tsx"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar/>
       <Welcome/>
+      <Stacks/>
     </>
   )
 }
