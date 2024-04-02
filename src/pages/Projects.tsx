@@ -1,6 +1,6 @@
-import digitalPointImg from "./../assets/digital-point.png"
-import showcaseImg from "./../assets/showcase.png"
-import todolistImg from "./../assets/todolist.jpg"
+import digitalPointImg from "./../assets/image/project-image/digital-point.png"
+import showcaseImg from "./../assets/image/project-image/showcase.png"
+import todolistImg from "./../assets/image/project-image/todolist.jpg"
 import { Card } from "../components/Card"
 
 export const Projects = () => {

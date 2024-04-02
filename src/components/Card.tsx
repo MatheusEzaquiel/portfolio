@@ -10,7 +10,7 @@ export const Card = ({title, description, img, linkBtn, previewLink}: any) => {
     const [openModal, setOpenModal] = useState(false);
 
     return(
-        <div className="w-full h-[50vh] bg-slate-300 rounded-lg 
+        <div className="w-full h-[50vh] bg-slate-400 rounded-lg 
         md:min-w-[32vw]
         2xl:min-w-[24vw] ">
 
