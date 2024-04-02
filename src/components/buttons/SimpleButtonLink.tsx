@@ -24,7 +24,7 @@ export const SimpleButtonLink = ({title, bgColor, textColor, icon, link}: btnDat
     )
 }
 
-export const SimpleButtonLinkSm = ({title, bgColor, textColor, icon, link, openModal}: btnData) => {
+export const SimpleButtonLinkSm = ({title, bgColor, textColor, icon, openModal}: btnData) => {
 
     return(
         <a download target="_blank" className="mx-auto md:mx-0

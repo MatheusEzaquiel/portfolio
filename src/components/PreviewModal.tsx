@@ -1,21 +1,10 @@
-import { useState } from "react";
 import { IoIosCloseCircle } from "react-icons/io"
 
 export const PreviewModal = ({open, close, preview}: any) => {
 
-    const [isOpen, setIsOpen] = useState(false);
-
-    const openModal = () => setIsOpen(true);
-    const closeModal = () => setIsOpen(false);
-
     if(!open) {
         return null
     }
-
-    /*
-    const modal = document.querySelector("dialog")
-    open ? modal?.showModal() : modal?.close()*/
-
 
     return(
         <dialog open className="w-[90vw] h-[80vh] rounded-lg">
