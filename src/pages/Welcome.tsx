@@ -19,29 +19,29 @@ export const Welcome = () => {
             lg:mt-16 lg:w-[70%] ">
 
                 <h2 className="text-white text-4xl mt-10
-                lg:text-[4.2rem] lg:font-bold" id="welcome">Hi! I'm Matheus B.</h2>
+                lg:text-[4.2rem] lg:font-bold" id="welcome">Olá! Eu sou Matheus B.</h2>
 
                 <div className="mt-2 flex flex-col my-4 lg:w-[85%]">
 
                     <h3 className="text-sky-900 font-medium text-2xl
                     md:text-xl
                     lg:text-3xl lg:mt-3">
-                        and I'm a web Developer
+                        e sou desenvolvedor Web
                     </h3>
 
                     <div className="text-my text-white text-justify  mt-8
                     md:block md:w-[90%] md:hidden
                     lg:text-xl lg:w-[60%] lg:pt-4">
-                        <p className="leading-relaxed">This is my web portfolio with some informations about me.
-                            Here you are find my stacks, some projects and my social medias. I use the language Java with framework Spring to make the backend applications like API's and React to construct the frontend.
+                        <p className="leading-relaxed">Este é meu portfólio web com algumas informações sobre mim. Aqui você encontrará minhas stacks,
+                        alguns de meus projetos e minhas redes sociais.
                         </p>
                     </div>
 
                     <div className="text-my text-white text-justify hidden 
                     md:block md:w-[90%]
                     lg:text-xl lg:w-[60%] lg:pt-4">
-                        <p className="leading-relaxed">This is my web portfolio with some informations about me.
-                            Here you are find my stacks, some projects and my social medias. I use the language Java with framework Spring to make the backend applications like API's and React to construct the frontend.
+                        <p className="leading-relaxed">Este é meu portfólio web com algumas informações sobre mim. Aqui você encontrará minhas stacks,
+                        alguns de meus projetos e minhas redes sociais.
                         </p>
                     </div>
                     
@@ -53,7 +53,7 @@ export const Welcome = () => {
                 lg:w-[60%] lg:mx-0 lg:gap-4">
                     
                     <SimpleButtonNavigate
-                    title="Contact" 
+                    title="Contato" 
                     icon={<BsPersonFillCheck className="text-2xl"/>}
                     bgColor="bg-sky-900"
                     textColor="text-white"

@@ -20,16 +20,16 @@ export const Navbar = () => {
                 {/* Desktop Navbar */}
                 <nav className="hidden md:block md:flex justify-around md:items-center
                 md:gap-16 md:text-lx">
-                    <a href="#welcome">Welcome</a>
+                    <a href="#welcome">Início</a>
                     <a href="#stacks">Stacks</a>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects">Projetos</a>
                 </nav>
 
                 <button onClick={toggleMenu} className="inline-flex md:hidden">
                     { isOpen ? <MdClose  fontSize={"2.5rem"}/> : <MdMenu  fontSize={"2.5rem"}/>}
                 </button>
 
-                <h1 className="text-xl lg:text-3xl">MB | Lists</h1>
+                <h1 className="text-xl lg:text-3xl">MB | Dev</h1>
             </div>
 
            
@@ -40,9 +40,9 @@ export const Navbar = () => {
                     <div >
 
                         <nav className="flex justify-around items-center text-xl py-6 bg-gradient-to-r from-blue-600 to-sky-800 text-white font-semibold md:hidden">
-                            <a href="#welcome">Welcome</a>
+                            <a href="#welcome">Início</a>
                             <a href="#stacks">Stacks</a>
-                            <a href="#projects">Projects</a>
+                            <a href="#projects">Projetos</a>
                         </nav>
                     
                     </div>

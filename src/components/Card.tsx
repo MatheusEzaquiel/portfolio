@@ -10,7 +10,7 @@ export const Card = ({title, description, img, linkBtn, previewLink}: any) => {
     const [openModal, setOpenModal] = useState(false);
 
     return(
-        <div className="min-w-[95%] h-[60vh] bg-slate-400 rounded-lg
+        <div className="min-w-[95%] h-[60vh] bg-slate-400 rounded-lg  relative
         md:min-w-[32vw]
         2xl:min-w-[24vw] ">
 
@@ -44,10 +44,13 @@ export const Card = ({title, description, img, linkBtn, previewLink}: any) => {
 
             </div>
 
-            <PreviewModal 
-            open={openModal}
-            close={() => {setOpenModal(false)}}
-            preview={previewLink}/>
+                { previewLink == "" ? <h2 className="text-center absolute bottom-4 right-4 text-lg font-bold text-gray-300">disponível apenas no github...</h2> : null }
+
+                <PreviewModal 
+                open={openModal}
+                close={() => {setOpenModal(false)}}
+                preview={previewLink}/>
+           
             
         </div>
     )

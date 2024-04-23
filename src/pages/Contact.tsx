@@ -52,10 +52,10 @@ export const Contact = () => {
         lg:h-[80vh]">
 
             <div className="md:w-1/2 flex flex-col items-center">
-                <h2 className="text-4xl text-white font-bold text-center mb-10">Contact</h2>
+                <h2 className="text-4xl text-white font-bold text-center mb-10">Contato</h2>
                 
                 <div className="my-4 mx-auto mt-2 xl:mt-0">
-                    <h2 className="text-white text-center font-medium">Do you want contact me? <br className="md:hidden"/> <span className="text-sky-600 border-b border-sky-600">send-me a message</span></h2>
+                    <h2 className="text-white text-center font-medium">Entre em contato <br className="md:hidden"/> <span className="text-sky-600 border-b border-sky-600">me envie uma mensagem</span></h2>
                 </div>
                 
                 <div className="w-[90%] lg:h-[75%] bg-white p-6 rounded-lg
@@ -72,7 +72,7 @@ export const Contact = () => {
                                 className="bg-gray-200 mt-2 p-2 text-gray-500 rounded-lg focus:outline-none"
                                 value={formData.name}
                                 onChange={handleChange}
-                                placeholder="Anonymous"
+                                placeholder="Anônimo"
                             />
                         </div>
                         <div className="m-2 w-[90%] flex flex-col items-left mx-auto">
@@ -84,7 +84,7 @@ export const Contact = () => {
                                 className="bg-gray-200 mt-2 p-2 text-gray-500 rounded-lg focus:outline-none"
                                 value={formData.email}
                                 onChange={handleChange}
-                                placeholder="anonymous@email.com"
+                                placeholder="usuario@email.com"
                             />
                         </div>
                         <div className="m-2 w-[90%] flex flex-col items-left mx-auto">
@@ -95,7 +95,7 @@ export const Contact = () => {
                                 className="bg-gray-200 mt-2 p-2 text-gray-500 rounded-lg focus:outline-none"
                                 value={formData.message}
                                 onChange={handleChange}
-                                placeholder="Write here your message..."
+                                placeholder="Escreva sua mensagem..."
                             ></textarea>
                         </div>
                         <button type="submit" className="w-[90%] h-12 bg-sky-600 text-white mx-auto my-6 rounded-xl font-medium flex items-center justify-center gap-2
