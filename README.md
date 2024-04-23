@@ -1,6 +1,6 @@
 # Portfolio
 
-<img src="./portfolio/src/assets/github-readme/inicio.png">
+<img src="./portfolio/src/assets/image/github-readme/inicio.png">
 
 ## O que é o projeto?
 O projeto se trata do meu portfólio profissional, com informações sobre mim, minhas stacks e a apresentação dos meus projetos.
