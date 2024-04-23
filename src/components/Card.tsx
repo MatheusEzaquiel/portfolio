@@ -26,7 +26,7 @@ export const Card = ({title, description, img, linkBtn, previewLink}: any) => {
             lg:mt-4">
                 
                 <ButtonProject
-                title="Show"
+                title="Visualizar"
                 icon={<HiEye className="text-2xl"/>}
                 bgColor="bg-white"
                 textColor="text-sky-900"
@@ -35,7 +35,7 @@ export const Card = ({title, description, img, linkBtn, previewLink}: any) => {
                 />
 
                 <ButtonProjectLink 
-                 title="Go github" 
+                 title="Ir para o github" 
                  icon={<FaGithub className="text-2xl"/>}
                  bgColor="bg-sky-900"
                  textColor="text-white"
