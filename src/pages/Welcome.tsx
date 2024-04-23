@@ -5,14 +5,14 @@ import { BsPersonFillCheck } from "react-icons/bs"
 
 //import programmerSvg from "./../assets/programmer.svg"
 import { Badge } from "../components/Badge"
-import { SimpleButtonLink } from "../components/buttons/SimpleButtonLink"
+import { SimpleButtonLink, SimpleButtonNavigate } from "../components/buttons/SimpleButtonLink"
 
 
 export const Welcome = () => {
 
     return(
 
-        <section className="w-full px-6 pt-12 pb-2 min-h-[70vh] bg-gradient-to-r from-blue-500 to-sky-700 relative lg:h-[80vh]">
+        <section id="welcome" className="w-full px-6 pt-12 pb-2 min-h-[70vh] bg-gradient-to-r from-blue-500 to-sky-700 relative lg:h-[80vh]">
             
             <div className="mx-auto flex flex-col items-left justify-left 
             md:w-[60%]
@@ -48,16 +48,16 @@ export const Welcome = () => {
                     
                 </div>
 
-                <div className="w-full mx-auto  pt-[4rem] gap-6
-                md:flex
+                <div className="w-[90%] mx-auto pt-[4rem] gap-6
+                md:flex md:items-center
                 lg:w-[60%] lg:mx-0 lg:gap-4">
                     
-                    <SimpleButtonLink 
+                    <SimpleButtonNavigate
                     title="Contact" 
                     icon={<BsPersonFillCheck className="text-2xl"/>}
                     bgColor="bg-sky-900"
                     textColor="text-white"
-                    link="#"
+                    link="#contact"
                     />
 
                     <SimpleButtonLink 
@@ -65,7 +65,7 @@ export const Welcome = () => {
                     icon={<MdDownload className="text-2xl"/> }
                     bgColor="bg-white"
                     textColor="text-sky-900"
-                    link="./doc/curriculo-matheus-bezerra-ezaquiel.pdf"
+                    link="portfolio/src/assets/docs/matheus-bezerra-ezaquiel.pdf"
                     />
 
                 </div>

@@ -2,8 +2,9 @@ export const Stacks = () => {
 
     return(
 
-        <section className="w-full px-6 pt-12 pb-2 min-h-[70vh] bg-gradient-to-r from-slate-900 to-gray-800 relative  
-        lg:h-[80vh]">
+        <section id="stacks" className="w-full px-6 pt-12 pb-2 min-h-[70vh] bg-gradient-to-r from-slate-900 to-gray-800 relative  
+       
+        lg:h-[85vh]">
 
             <h2 className="text-4xl text-white font-bold text-center mb-10">Stacks</h2>
 

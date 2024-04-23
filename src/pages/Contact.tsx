@@ -47,7 +47,7 @@ export const Contact = () => {
 
     return(
 
-        <section className="w-full h-[80vh] px-6 pt-12 pb-2 min-h-[70vh] bg-gradient-to-r from-slate-900 to-gray-800 relative  
+        <section id="contact" className="w-full h-[80vh] px-6 pt-12 pb-2 min-h-[70vh] bg-gradient-to-r from-slate-900 to-gray-800 relative  
         md:flex md:justify-around
         lg:h-[80vh]">
 

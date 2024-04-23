@@ -7,7 +7,7 @@ export const PreviewModal = ({open, close, preview}: any) => {
     }
 
     return(
-        <dialog open className="w-[90vw] h-[80vh] rounded-lg">
+        <dialog open className="w-[90vw] h-[95%] rounded-lg absolute transform -translate-y-[70%] z-4">
 
             <div className="w-full h-[10%] bg-blue-500 flex items-center justify-between px-4">
                 <p className="text-center text-white">View the project</p>
