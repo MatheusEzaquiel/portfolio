@@ -65,7 +65,7 @@ export const Welcome = () => {
                     icon={<MdDownload className="text-2xl"/> }
                     bgColor="bg-white"
                     textColor="text-sky-900"
-                    link="portfolio/src/assets/docs/curriculo.pdf"
+                    link="portfolio/src/assets/docs/matheus-bezerra-ezaquiel.pdf"
                     />
 
                 </div>
